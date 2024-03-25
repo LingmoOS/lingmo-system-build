@@ -1,4 +1,13 @@
 # Lingmo OS Apt Sources
 deb https://packages.lingmo.org polaris main common
 deb https://packages.lingmo.org/pkg polaris-pkgs main kernel devtool
+# The Debian GNU/Linux Apt Sources
+deb https://deb.debian.org/debian trixie main contrib non-free non-free-firmware
+deb-src https://deb.debian.org/debian trixie main contrib non-free non-free-firmware
+deb https://deb.debian.org/debian trixie-updates main contrib non-free non-free-firmware
+deb-src hrrps://deb.debian.org/debian trixie-updates main contrib non-free non-free-firmware
+deb https://deb.debian.org/debian/ trixie-backports main contrib non-free non-free-firmware
+deb-src https://deb.debian.org/debian/ trixie-backports main contrib non-free non-free-firmware
+deb https://security.debian.org/debian-security trixie-security main contrib non-free non-free-firmware
+deb-src https://security.debian.org/debian-security trixie-security main contrib non-free non-free-firmware
 # 2023-2024 Lingmo OS Team <team@lingmo.org>
