@@ -1910,7 +1910,7 @@ lingmo-cherryimg
 lingmo-core
 lingmo-cursor-themes
 lingmo-daemon
-lingmo-debinstaller
+# lingmo-debinstaller
 lingmo-dock
 lingmo-filemanager
 lingmo-font-viewer
