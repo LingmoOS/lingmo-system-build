@@ -29,7 +29,7 @@ lingmo-cursor-themes
 lingmo-daemon
 lingmo-font-viewer
 lingmo-kwin-plugins
-lingmo-debinstaller
+# lingmo-debinstaller
 lingmo-dock
 lingmo-gtk-themes
 lingmo-systemicons
