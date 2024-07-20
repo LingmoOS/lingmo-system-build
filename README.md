@@ -1,3 +1,9 @@
+![LOGO](https://www.lingmo.org/icon/TitleWithIcon.svg)
+
+![Alt](https://repobeats.axiom.co/api/embed/ba70e1ebf8796000775f33aaae12ac2f19f2d1f1.svg "info")
+
+[![license](https://img.shields.io/github/license/LingmoOS/lingmo-system-build.svg)](https://github.com/LingmoOS/lingmo-system-build) [![linux](https://img.shields.io/badge/Linux-FCC624?style=&logo=linux&logoColor=black)](https://kernel.org/)  [![Build](https://github.com/LingmoOS/lingmo-system-build/actions/workflows/build.yml/badge.svg)](https://github.com/LingmoOS/lingmo-system-build/actions/workflows/build.yml) [![GPL2.0](https://badges.frapsoft.com/os/gpl/gpl.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+
 # Lingmo OS System Build Tools
 
 The tools and files used to build Lingmo OS can build a system that is not much different from the official version.
