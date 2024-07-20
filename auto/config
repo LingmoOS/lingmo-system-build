@@ -12,8 +12,8 @@ lingmo-sys-build config noauto \
     --archive-area "main contrib non-free non-free-firmware" \
     --bootappend-live "boot=live username=lingmo noautologin quiet splash" \
     --memtest memtest86+ \
-    --distribution polaris \
-    --parent-distribution polaris \
+    --distribution hydrogen \
+    --parent-distribution hydrogen \
     --win32-loader true \
     --apt-recommends true \
     --cache-packages false \
@@ -31,12 +31,12 @@ lingmo-sys-build config noauto \
     --iso-application "LingmoOS" \
     --iso-publisher "LingmoOS Project" \
     --iso-volume "Lingmo OS Live" \
-    --mirror-binary https://packages.lingmo.org \
+    --mirror-binary https://packages.lingmo.org/lingmo \
     --mirror-binary-security https://deb.debian.org/debian-security \
-    --mirror-bootstrap https://packages.lingmo.org \
-    --mirror-chroot https://packages.lingmo.org \
+    --mirror-bootstrap https://packages.lingmo.org/lingmo \
+    --mirror-chroot https://packages.lingmo.org/lingmo \
     --mirror-chroot-security https://deb.debian.org/debian-security \
-    --mirror-debian-installer https://packages.lingmo.org \
+    --mirror-debian-installer https://packages.lingmo.org/lingmo \
     --keyring-packages debian-keyring \
     --updates false \
     --security false \
