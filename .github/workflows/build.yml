@@ -24,7 +24,7 @@ jobs:
 
       - name: Install Lingmo Debootstrap
         run: |
-            wget http://ftp.cn.debian.org/debian/pool/main/d/debootstrap/debootstrap_1.0.134_all.deb
+            wget https://mirrors.ustc.edu.cn/debian/pool/main/d/debootstrap/debootstrap_1.0.136_all.deb
             sudo apt -y install ./*.deb
             cd debootstrap/ && sudo apt-get build-dep ./ && debuild -us -uc -b && sudo apt -y install ../*.deb
 
