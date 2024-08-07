@@ -22,7 +22,7 @@ lingmo-sys-build config noauto \
     --uefi-secure-boot enable \
     --initramfs live-boot \
     --linux-packages "linux-image linux-headers" \
-    --linux-flavours "6.7.9-amd64" \
+    --linux-flavours "6.9.7-amd64" \
     --binary-images iso-hybrid \
     --debian-installer live \
     --debian-installer-gui true \
@@ -31,12 +31,12 @@ lingmo-sys-build config noauto \
     --iso-application "LingmoOS" \
     --iso-publisher "LingmoOS Project" \
     --iso-volume "Lingmo OS Live" \
-    --mirror-binary https://packages.lingmo.org/lingmo \
+    --mirror-binary https://packages.lingmo.org/packages \
     --mirror-binary-security https://deb.debian.org/debian-security \
-    --mirror-bootstrap https://packages.lingmo.org/lingmo \
-    --mirror-chroot https://packages.lingmo.org/lingmo \
+    --mirror-bootstrap https://packages.lingmo.org/packages \
+    --mirror-chroot https://packages.lingmo.org/packages \
     --mirror-chroot-security https://deb.debian.org/debian-security \
-    --mirror-debian-installer https://packages.lingmo.org/lingmo \
+    --mirror-debian-installer https://packages.lingmo.org/packages \
     --keyring-packages debian-keyring \
     --updates false \
     --security false \
