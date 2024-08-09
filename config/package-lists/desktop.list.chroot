@@ -3,7 +3,6 @@ dirmngr
 linux-image-6.9.7-amd64
 linux-headers-6.9.7-amd64
 software-properties-common
-codium
 kwin-x11
 kwin-dev
 kscreen
@@ -18,13 +17,11 @@ vim
 plymouth
 appmotor
 liblingmo
-lingmo
 lingmoui
 lingmo-base-common
 lingmo-calendar
 lingmo-core
 lingmo-calculator
-lingmo-cherryimg
 lingmo-cursor-themes
 lingmo-daemon
 lingmo-font-viewer
@@ -39,10 +36,10 @@ lingmo-filemanager
 lingmo-firmware
 lingmo-settings
 lingmo-setup
-lingmo-software
-lingmo-software-plugin-flatpak
+gnome-software
+gnome-software-plugin-flatpak
 lingmo-system-monitor
-lingmo-updator
+# lingmo-updator
 lingmo-terminal
 lingmo-wallpapers
 lingmo-ocr
@@ -54,8 +51,6 @@ lingmo-screenshot
 lingmo-sddm-theme
 lingmo-statusbar
 lingmo-texteditor
-lingmo-wayland-protocols
-lingmo-gettext-tools
 firmware-linux
 firmware-linux-free
 firmware-sof-signed
